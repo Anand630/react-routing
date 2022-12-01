@@ -1,0 +1,31 @@
+.home-icon-and-name-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 65vh;
+}
+
+.home-icon {
+  height: 200px;
+  width: 200px;
+}
+
+.home-heading {
+  color: #6d396b;
+  font-weight: 600;
+  font-family: Roboto;
+}
+
+@media (max-width: 576px) {
+  .home-icon {
+    height: 150px;
+    width: 150px;
+  }
+  .home-heading {
+    color: #6d396b;
+    font-weight: 600;
+    font-family: Roboto;
+    font-size: 30px;
+  }
+}

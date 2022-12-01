@@ -1,0 +1,99 @@
+.nav-bar {
+}
+
+.nav-items-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  list-style: none;
+  padding-left: 0;
+  margin-top: 0;
+}
+
+.page-logo-and-wave-text {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.wave-image-icon {
+  height: 25px;
+  width: 25px;
+}
+
+.wave-text-name {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 20px;
+  color: #12022f;
+  margin-left: 8px;
+}
+
+.nav-options-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-nav-option {
+  font-family: Roboto;
+  color: #12022f;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.about-nav-option {
+  font-family: Roboto;
+  color: #12022f;
+  font-size: 18px;
+  font-weight: 500;
+  margin-left: 12px;
+  margin-right: 12px;
+}
+
+.contact-nav-option {
+  font-family: Roboto;
+  color: #12022f;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.hyperlink-remover {
+  text-decoration: none;
+}
+
+@media (max-width: 768px) {
+  .wave-text-name {
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 16px;
+    color: #12022f;
+    margin-left: 8px;
+  }
+  .home-nav-option {
+    font-family: Roboto;
+    color: #12022f;
+    font-size: 14px;
+    font-weight: 500;
+  }
+
+  .about-nav-option {
+    font-family: Roboto;
+    color: #12022f;
+    font-size: 14px;
+    font-weight: 500;
+    margin-left: 12px;
+    margin-right: 12px;
+  }
+
+  .contact-nav-option {
+    font-family: Roboto;
+    color: #12022f;
+    font-size: 14px;
+    font-weight: 500;
+  }
+}
